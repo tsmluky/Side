@@ -1,0 +1,70 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IFlashloan",
+  "sourceName": "contracts/interfaces/IFlashloan.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "FlashLoanPool",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "loanAmount",
+              "type": "uint256"
+            },
+            {
+              "components": [
+                {
+                  "components": [
+                    {
+                      "internalType": "address",
+                      "name": "tokenIn",
+                      "type": "address"
+                    },
+                    {
+                      "internalType": "address",
+                      "name": "tokenOut",
+                      "type": "address"
+                    },
+                    {
+                      "internalType": "uint256",
+                      "name": "amountIn",
+                      "type": "uint256"
+                    },
+                    {
+                      "internalType": "uint256",
+                      "name": "amountOutMin",
+                      "type": "uint256"
+                    }
+                  ],
+                  "internalType": "struct IFlashloan.Hop[]",
+                  "name": "hops",
+                  "type": "tuple[]"
+                }
+              ],
+              "internalType": "struct IFlashloan.Route[]",
+              "name": "routes",
+              "type": "tuple[]"
+            }
+          ],
+          "internalType": "struct IFlashloan.FlashParams",
+          "name": "params",
+          "type": "tuple"
+        }
+      ],
+      "name": "executeFlashLoan",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

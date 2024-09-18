@@ -1,0 +1,459 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\luky\\Desktop\\side-\\contracts\\Flashloan.sol": {
+      "lastModificationDate": 1726451766618,
+      "contentHash": "a0b0eeda6c2fb774b73e296b561ad975",
+      "sourceName": "contracts/Flashloan.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@aave/core-v3/contracts/flashloan/base/FlashLoanReceiverBase.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "./interfaces/IFlashloan.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Flashloan"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\contracts\\interfaces\\IFlashloan.sol": {
+      "lastModificationDate": 1726582808406,
+      "contentHash": "9042f470dbc3c1a61ebf173e1bfc0ef9",
+      "sourceName": "contracts/interfaces/IFlashloan.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IFlashloan"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1726584666716,
+      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@aave\\core-v3\\contracts\\flashloan\\base\\FlashLoanReceiverBase.sol": {
+      "lastModificationDate": 1726584730684,
+      "contentHash": "504fca974bec38dbe2100c822f5da2ca",
+      "sourceName": "@aave/core-v3/contracts/flashloan/base/FlashLoanReceiverBase.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IFlashLoanReceiver.sol",
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FlashLoanReceiverBase"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@aave\\core-v3\\contracts\\interfaces\\IPoolAddressesProvider.sol": {
+      "lastModificationDate": 1726584730974,
+      "contentHash": "75709782c90506d3ce968d5a6e06b900",
+      "sourceName": "@aave/core-v3/contracts/interfaces/IPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPoolAddressesProvider"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@aave\\core-v3\\contracts\\interfaces\\IPool.sol": {
+      "lastModificationDate": 1726584730970,
+      "contentHash": "e977debb0018eb26ecec353110d66696",
+      "sourceName": "@aave/core-v3/contracts/interfaces/IPool.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPoolAddressesProvider.sol",
+        "../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPool"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@aave\\core-v3\\contracts\\flashloan\\interfaces\\IFlashLoanReceiver.sol": {
+      "lastModificationDate": 1726584730870,
+      "contentHash": "b5a370abf3464cd07a78d6a9ded0a975",
+      "sourceName": "@aave/core-v3/contracts/flashloan/interfaces/IFlashLoanReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPoolAddressesProvider.sol",
+        "../../interfaces/IPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IFlashLoanReceiver"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@aave\\core-v3\\contracts\\protocol\\libraries\\types\\DataTypes.sol": {
+      "lastModificationDate": 1726584730533,
+      "contentHash": "5d70776caccb171510548c8c0279088e",
+      "sourceName": "@aave/core-v3/contracts/protocol/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\contracts\\Side.sol": {
+      "lastModificationDate": 1726585859636,
+      "contentHash": "b6c9a831de1d7992af9942d75a34fe0e",
+      "sourceName": "contracts/Side.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@aave/core-v3/contracts/flashloan/base/FlashLoanReceiverBase.sol",
+        "@aave/core-v3/contracts/interfaces/IPoolAddressesProvider.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./interfaces/IFlashloan.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Side"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1726584676309,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1726584645923,
+      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\luky\\Desktop\\side-\\contracts\\Lock.sol": {
+      "lastModificationDate": 1726451766627,
+      "contentHash": "dacf0d5cb5b45dc83086de5bc1c26c2c",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    }
+  }
+}
